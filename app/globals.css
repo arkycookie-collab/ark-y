@@ -33,7 +33,10 @@ a:hover { color: var(--primary); }
 h1 { font-family: var(--font-handwriting), cursive; font-size: clamp(48px, 5.8vw, 88px); line-height: 1.22; font-weight: 400; margin: 0; text-wrap: balance; text-shadow: 0 3px 24px #0009; }
 h1 .love { color: var(--primary); }
 h1 .revolution { color: var(--accent); }
-.languages { display: flex; flex-wrap: wrap; gap: 0; margin-top: 33px; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--foreground); }
+  .suno-line { margin: 18px 0 0; font-size: 15px; letter-spacing: 0.3px; color: var(--foreground); text-shadow: 0 2px 12px #0009; }
+  .suno-line a { color: var(--primary); text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; transition: color 150ms ease; }
+  .suno-line a:hover { color: var(--accent); }
+  .languages { display: flex; flex-wrap: wrap; gap: 0; margin-top: 33px; font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: var(--foreground); }
 .languages span + span::before { content: '·'; margin-inline: 20px; color: var(--primary); }
 .details { display: grid; grid-template-columns: 1.2fr 1fr; gap: 9%; padding-block: 32px 37px; border-top: 1px solid var(--border); }
 .section-label { font-size: 9px; letter-spacing: 2.5px; font-weight: 400; color: var(--primary); margin: 0 0 18px; }

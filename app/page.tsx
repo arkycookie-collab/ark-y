@@ -12,6 +12,7 @@ export default function Page() {
         <div className="identity">
           <p className="eyebrow">ARK-Y <span aria-hidden="true">/</span> LYRICIST & AI SONGWRITER</p>
           <h1 id="headline">Somewhere between a <span className="love">love song</span> and a <span className="revolution">revolution</span></h1>
+          <p className="suno-line">Check me out on <a href="https://suno.com/@ark_y" target="_blank" rel="noopener noreferrer">suno.com/@ark_y</a></p>
           <div className="languages" aria-label="Languages I write in"><span>English</span><span>Hindi</span><span>Kannada</span></div>
         </div>
       </section>
