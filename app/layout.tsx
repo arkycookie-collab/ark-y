@@ -1,6 +1,9 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
+import { Caveat } from 'next/font/google'
 import './globals.css'
+
+const handwriting = Caveat({ subsets: ['latin'], weight: '400', variable: '--font-handwriting' })
 
 export const metadata: Metadata = {
   title: 'Ark-Y — Lyricist & AI Songwriter',
@@ -12,8 +15,8 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  colorScheme: 'light',
-  themeColor: '#f3edf7',
+  colorScheme: 'dark',
+  themeColor: '#071316',
 }
 
 export default function RootLayout({
@@ -23,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className={`${handwriting.variable} antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
