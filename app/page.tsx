@@ -18,7 +18,7 @@ export default function Page() {
       <div className="details">
         <section className="about" aria-labelledby="about-heading">
           <h2 className="section-label" id="about-heading">THE WORDS COME FIRST</h2>
-          <p>I write my own lyrics in <strong>English, Hindi, and Kannada.</strong> I use SUNO to create my own songs, with my lyrics as the spine and words of every song.</p>
+          <p>I write my own lyrics in <strong>English, Hindi, and Kannada.</strong> I use SUNO to write my own songs, using my lyrics as the spine and words for the song.</p>
         </section>
         <ContactLinks />
       </div>
